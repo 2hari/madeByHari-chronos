@@ -8,6 +8,7 @@ import NavMobile from "./components/NavMobile"
 import Stats from "./components/Stats"
 import Why from "./components/Why"
 import Calculate from "./components/Calculate"
+import Hari from "./components/Hari"
 
 function App() {
   const [navMobile, setNavMobile] = useState(false)
@@ -32,6 +33,7 @@ function App() {
         <Stats />
         <Why />
         <Calculate />
+        <Hari />
       </div>
     </>
   )

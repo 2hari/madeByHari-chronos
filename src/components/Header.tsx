@@ -1,4 +1,3 @@
-import Logo from "../assets/img/logo.svg"
 import Nav from "./Nav"
 import AccountBtns from "./AccountBtns"
 
@@ -14,8 +13,8 @@ const Header = ({ setNavMobile }: { setNavMobile: (arg: boolean) => void }) => {
     >
       <div className="container mx-auto flex items-center justify-between">
         {/* logo */}
-        <a href="#">
-          <img src={Logo} alt="" />
+        <a href="#" className="flex items-center">
+          <span className="text-2xl font-extrabold">Chronos</span>
         </a>
         {/* nav & btns */}
         <div className="hidden lg:flex gap-x-[55px]">
