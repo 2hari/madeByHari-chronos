@@ -9,6 +9,9 @@ import Stats from "./components/Stats"
 import Why from "./components/Why"
 import Calculate from "./components/Calculate"
 import Hari from "./components/Hari"
+import Trade from "./components/Trade"
+import Features from "./components/Features"
+import Newsletter from "./components/Newsletter"
 
 function App() {
   const [navMobile, setNavMobile] = useState(false)
@@ -33,6 +36,9 @@ function App() {
         <Stats />
         <Why />
         <Calculate />
+        <Trade />
+        <Features />
+        <Newsletter />
         <Hari />
       </div>
     </>

@@ -58,15 +58,23 @@ const Hari = () => {
               </p>
             </div>
             <div className="px-3">
-              <h3 className="text-gray-700 dark:text-gray-200  md:text-lg 2xl:text-xl font-bold mb-2">
+              <h3 className="text-gray-200  md:text-lg 2xl:text-xl font-bold mb-2">
                 Project overview
               </h3>
-              <p className="mb-12">
+              <p>
                 A fully fluid responsive Figma to React UI wesbite with scroll
                 animations. The animation use the awesome "aos" library which
                 makes it super easy to implement scroll reveal animations
               </p>
-              <h3 className="text-gray-700 dark:text-gray-200  md:text-lg 2xl:text-xl font-bold mb-2">
+              <div className="mt-1 mb-16">
+                <a
+                  href="https://www.figma.com/file/A18UyNjMwCvaOh0mBwcVES/chronos?type=design&node-id=0%3A1&t=iRCNdNiPNGHhuWMG-1"
+                  className="text-[#00e0f3]"
+                >
+                  Compare with Figma design
+                </a>
+              </div>
+              <h3 className="text-gray-200  md:text-lg 2xl:text-xl font-bold mb-2">
                 Tech Stack
               </h3>
               <div className="space-y-2">
@@ -81,6 +89,10 @@ const Hari = () => {
                 <img
                   src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"
                   alt="TailwindCSS"
+                />
+                <img
+                  src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"
+                  alt="Figma"
                 />
               </div>
             </div>
